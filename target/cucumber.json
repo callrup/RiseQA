@@ -1,0 +1,469 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-28T14:34:39.724Z",
+        "line": 20,
+        "name": "4) Login with Performance glitch User to test performnace impact on multiple addition and removal",
+        "description": "",
+        "id": "swaglabs-test-scenarios-for-all-provided-user-accounts;4)-login-with-performance-glitch-user-to-test-performnace-impact-on-multiple-addition-and-removal;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4584983200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1507307100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the URL \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.saucedemo.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opwn_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227234400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.set_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182928700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter Password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.set_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199511500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147965300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I land into the homePage as \"Swag Labs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swag Labs",
+                  "offset": 29
+                }
+              ],
+              "location": "Steps.Page_title_shouldbe(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 906243900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add items to the cart",
+            "match": {
+              "location": "Steps.add_items_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 225756700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I compare and find the minimum price",
+            "match": {
+              "location": "Steps.find_minimum_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273261200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on logout link",
+            "match": {
+              "location": "Steps.Click_on_logout_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 500407300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndAcceotanceTest"
+          },
+          {
+            "name": "@AddmultipleItems"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-28T14:34:48.623Z",
+        "line": 21,
+        "name": "4) Login with Performance glitch User to test performnace impact on multiple addition and removal",
+        "description": "",
+        "id": "swaglabs-test-scenarios-for-all-provided-user-accounts;4)-login-with-performance-glitch-user-to-test-performnace-impact-on-multiple-addition-and-removal;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3804879800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 764033100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the URL \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.saucedemo.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opwn_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253011400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Username as \"performance_glitch_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.set_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172704600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter Password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.set_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5275816200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 431663100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I land into the homePage as \"Swag Labs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swag Labs",
+                  "offset": 29
+                }
+              ],
+              "location": "Steps.Page_title_shouldbe(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1090341300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add items to the cart",
+            "match": {
+              "location": "Steps.add_items_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195308600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I compare and find the minimum price",
+            "match": {
+              "location": "Steps.find_minimum_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 280311400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on logout link",
+            "match": {
+              "location": "Steps.Click_on_logout_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1268450200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndAcceotanceTest"
+          },
+          {
+            "name": "@AddmultipleItems"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-28T14:35:02.162Z",
+        "line": 35,
+        "name": "2) Login with locked out user",
+        "description": "",
+        "id": "swaglabs-test-scenarios-for-all-provided-user-accounts;2)-login-with-locked-out-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3595491300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I launch the browser",
+            "match": {
+              "location": "Steps.user_Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 798120000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I open the URL \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.saucedemo.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opwn_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248978300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter Username as \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "locked_out_user",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.set_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173093400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter Password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.set_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90789400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click the login button",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46626600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Check User is locked out",
+            "match": {
+              "location": "Steps.validate_locked_out_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363476200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I close the browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndAcceotanceTest"
+          },
+          {
+            "name": "@LoginwithLockedoutUser"
+          }
+        ]
+      }
+    ],
+    "name": "SwagLabs test scenarios for all provided user accounts",
+    "description": "",
+    "id": "swaglabs-test-scenarios-for-all-provided-user-accounts",
+    "keyword": "Feature",
+    "uri": "file:Features/RiseTest.feature",
+    "tags": [
+      {
+        "name": "@EndToEndAcceotanceTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
